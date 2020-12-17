@@ -13,6 +13,7 @@ h1 {
     width: fit-content;
     font-weight: normal;
     font-size: 50px;
+    margin-top: 16px;
 }
 
 h2 {
@@ -26,11 +27,15 @@ h2 {
 
 
 /* main style section */
+main video {
+    margin-top:16px
+}
+
 #appdescription h1 {
     font-weight: 300;
     font-size: 42px;
     color: white;
-
+    margin-top: 16px
 }
 
 #appdescription p {
@@ -42,4 +47,9 @@ h2 {
 footer h3 {
     text-align: right;
     color: gray;
+}
+
+footer img {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
